@@ -125,13 +125,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**5. Deploy to Firebase** *(optional)*
-```bash
-npm run build
-firebase login
-firebase init
-firebase deploy
-```
 
 ---
 
