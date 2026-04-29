@@ -13,7 +13,7 @@ Capped is a mobile-first web application that helps students track daily spendin
 Three entry points: Log In (returning user with existing data), Sign Up (fresh start with onboarding), or Skip & Continue (jump in with demo data). New users go through a short onboarding questionnaire called *Spill Your Spend* to set their monthly budget and flag their spending weaknesses.
 
 **Dashboard**
-Live net balance, total expenses, and total income. Recent transactions displayed with category, title and amount. Scroll down to view up to 30 past transactions, then hop to the Calendar.
+Live net balance, total expenses, and total income. Recent transactions displayed with category, title and amount. Scroll down to view up to 12 past transactions, then hop to the Calendar.
 
 **Add Transaction**
 Pick a category, enter a title (or auto-fill from category), log the amount. Net balance and charts update immediately.
