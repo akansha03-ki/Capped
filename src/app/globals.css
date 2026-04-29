@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary-1: var(--p1);
+  --color-primary-2: var(--p2);
+  --color-primary-3: var(--p3);
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+}
+
+@layer base {
+  :root {
+    --bg: #F9FAFB;
+    --fg: #111827;
+  }
+
+  .dark {
+    --bg: #121212;
+    --fg: #F9FAFB;
+  }
+
+  /* Palette 1: Default (Brown/Sage/Pink) */
+  .theme-1 {
+    --p1: #DDB892;
+    --p2: #9DC183;
+    --p3: #FFC5D3;
+  }
+
+  /* Palette 2: Ocean */
+  .theme-2 {
+    --p1: #3B82F6;
+    --p2: #14B8A6;
+    --p3: #6366F1;
+  }
+
+  /* Palette 3: Sunset */
+  .theme-3 {
+    --p1: #F97316;
+    --p2: #EF4444;
+    --p3: #EAB308;
+  }
+
+  /* Palette 4: Forest */
+  .theme-4 {
+    --p1: #166534;
+    --p2: #22C55E;
+    --p3: #84CC16;
+  }
+
+  /* Palette 5: Berry */
+  .theme-5 {
+    --p1: #9333EA;
+    --p2: #D946EF;
+    --p3: #F43F5E;
+  }
+
+  /* Palette 6: Monochrome */
+  .theme-6 {
+    --p1: #4B5563;
+    --p2: #6B7280;
+    --p3: #9CA3AF;
+  }
+
+  /* Palette 7: Pastel */
+  .theme-7 {
+    --p1: #FDBA74;
+    --p2: #FCD34D;
+    --p3: #A7F3D0;
+  }
+
+  /* Palette 8: Neon */
+  .theme-8 {
+    --p1: #39FF14;
+    --p2: #FF00FF;
+    --p3: #00FFFF;
+  }
+
+  /* Palette 9: Autumn */
+  .theme-9 {
+    --p1: #7C2D12;
+    --p2: #B45309;
+    --p3: #D97706;
+  }
+
+  /* Palette 10: Cyber */
+  .theme-10 {
+    --p1: #06B6D4;
+    --p2: #8B5CF6;
+    --p3: #E11D48;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
