@@ -90,7 +90,7 @@ Default light palette: Brown `#DDB892`, Sage Green `#9DC183`, Pastel Pink `#FFC5
 | State Management | React Context API |
 | Persistence | localStorage |
 | AI Chatbot | Google Gemini via Vercel AI SDK |
-| Deployment | Firebase Hosting |
+| Deployment | Netlify |
 
 ---
 
