@@ -156,7 +156,7 @@ firebase deploy
 
 ## Live Link
 
-> [capped.web.app]()
+> [capped.web.app](https://capped.netlify.app/)
 ---
 
 Built with questionable financial decisions and a lot of love.
