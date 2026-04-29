@@ -50,7 +50,7 @@ Capped is a mobile-first web application that helps students track daily spendin
 Three entry points: Log In (returning user with existing data), Sign Up (fresh start with onboarding), or Skip & Continue (jump in with demo data). New users go through a short onboarding questionnaire called *Spill Your Spend* to set their monthly budget and flag their spending weaknesses.
 
 **Dashboard**
-Live net balance, total expenses, and total income. Recent transactions displayed with category, title, payment mode, and amount. Scroll down to view up to 30 past transactions, then hop to the Calendar.
+Live net balance, total expenses, and total income. Recent transactions displayed with category, title and amount. Scroll down to view up to 30 past transactions, then hop to the Calendar.
 
 **Add Transaction**
 Pick a category, enter a title (or auto-fill from category), log the amount. Net balance and charts update immediately.
@@ -136,19 +136,9 @@ firebase deploy
 ---
 
 ## Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d9361dca-5371-4d16-8d57-daf4b98e6506" />
 
-> *Screenshots will be added after deployment.*
-
-| Screen | Preview |
-|---|---|
-| Authentication | coming soon |
-| Spill Your Spend | coming soon |
-| Dashboard | coming soon |
-| Expenditure Charts | coming soon |
-| Split Bill | coming soon |
-| Calendar | coming soon |
-| Notifications | coming soon |
-| Theme Selector | coming soon |
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c4311ab-c7d9-4df7-9d0a-14d8de691f86" />
 
 ---
 
